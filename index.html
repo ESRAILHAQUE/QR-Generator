@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include html2pdf library from CDN -->
+<script src="https://rawgit.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>QR Code Generator</h1>
+            <p>Paste a url or enter text to create QR code</p>
+        </header>
+        <div class="form">
+            <input type="text" placeholder="Enter text or url">
+            <button>Generate QR Code</button>
+        </div>
+       
+             <div class="qr-code">
+            <img src="qrCode.png" width="150px" height="150px" alt="qr-code"> 
+            
+         </div>
+         <p class="copy">&copy; All rights reseved to Md Esrail Haque</p>
+ 
+     </div>
+        
+    
+    <script src="script.js"></script>
+</body>
+</html>
